@@ -7,8 +7,11 @@ We have many options to multiply a chain of matrices because matrix multiplicati
 
 
 **Algorithm:**
-Array p{1...n+1] contains sizes of matrices to be multiplied where is n is the number of matrices
+
+Array p{1...n+1] contains sizes of matrices to be multiplied where is n is the number of matrices.
+
 **Matrix-chain-multiplication(array p[1...n, int n)**
+
  1. Declare two arrays m[1...n,1...n]  and b[1....n,1....n];
  
  
