@@ -51,6 +51,29 @@ Array p{1...n+1] contains sizes of matrices to be multiplied where is n is the n
  
  17. STOP;
  
+ // Prints parenthesization in subexpression (i, j)
+ 
+**printParenthesis(i, j, b[n]\[n], name)**
+
+  1. if (i == j)
+  
+    {
+        print name;
+        name++;
+        return;
+     }
+
+   2. print "(";
+
+   3. call printParenthesis(i, b[i][j], b, name);
+
+   4. call printParenthesis(b[i][j]+1, j, b, name);
+
+   5. print ")";
+
+   6. STOP;
+
+ 
  **Time Complexity:** O(n^3)
  
 
