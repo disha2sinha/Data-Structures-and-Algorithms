@@ -17,7 +17,7 @@ Array p{1...n+1] contains sizes of matrices to be multiplied where is n is the n
  
  3. for l=2 to n
  
- 4.do{
+ 4. do{
  
  5.    for  i=1 to n-l+1 
  
