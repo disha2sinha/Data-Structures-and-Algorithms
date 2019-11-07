@@ -7,10 +7,10 @@ int max(int x,int y)
 }
 int LongestCommonSubsequence(string string1,string string2,int m,int n)
 {
-    int lcs[m][n];
-    for(int i=0;i<m;i++)
+    int lcs[m+1][n+1];
+    for(int i=0;i<=m;i++)
     {
-        for(int j=0;j<n;j++)
+        for(int j=0;j<=n;j++)
         {
             if(i==0||j==0)
             {
@@ -26,10 +26,10 @@ int LongestCommonSubsequence(string string1,string string2,int m,int n)
             }
         }
     }
-    int length= lcs[m - 1][n - 1];
+    int length= lcs[m][n];
     char sequence[length+1];
-    int i=m-1;
-    int j=n-1;
+    int i=m;
+    int j=n;
     while(i>0 && j>0)
     {
         if (string1.at(i - 1) == string2.at(j - 1))
@@ -51,7 +51,7 @@ int LongestCommonSubsequence(string string1,string string2,int m,int n)
         
     }
     cout<<"The Longest Common Subsequence of entered strings:"<<sequence<<"\n"; 
-    return lcs[m-1][n-1];
+    return lcs[m][n];
 }
 int main()
 {
