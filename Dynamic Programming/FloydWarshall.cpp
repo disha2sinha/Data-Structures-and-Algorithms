@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-#include<string>
 using namespace std;
 int pred[100][100];
 void printDistance(int matrix[][100], int n)
@@ -28,18 +27,6 @@ void printDistance(int matrix[][100], int n)
         cout << endl;
     }
 }
-void path(int i, int j,int pred[][100])
-{
-    char vertice='A';
-    if (pred[i][j]==-999)
-    {
-        cout<<char(vertice+i)<<"->"<<char(vertice+j)<<endl;
-        return;
-    }
-    path(i,pred[i][j],pred);
-    path(pred[i][j],j,pred);
-    
-}
 void floydwarshall(int n,int weight[][100])
 {
     int dist[100][100];
@@ -57,18 +44,13 @@ void floydwarshall(int n,int weight[][100])
         {
             for(int j=0;j<n;j++)
             {
-                if (dist[i][k]+dist[k][j]<dist[i][j])
-                {
-                    dist[i][j]=dist[i][k]+dist[k][j];
-                    pred[i][j]=k;
-                }
+                dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+                pred[i][j]=k;
             }
         }
     }
     cout<<"The matrix shows the shortest distance between each of the vertices:"<<endl;
     printDistance(dist,n);
-    cout<<"The Shortest path:"<<endl;
-    path(0,n-1,pred);
 }
 
 int main()
@@ -83,7 +65,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            cout<<"Enter distance:"<<endl;
+            cout<<"Enter distance between "<<char('A'+i)<<" to "<<char('A'+j)<<endl;
             cin>>weight[i][j];
         }
     }
