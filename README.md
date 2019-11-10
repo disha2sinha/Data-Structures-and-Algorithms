@@ -2,7 +2,6 @@
 
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
-Codes for some popular Dynamic Programmimg Algorithms:
 **DP 1:[SINGLE SOURCE SHORTEST DISTANCE USING BELLMAN FORD ALGORITHM](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/BellmanFord.cpp)**
 
 **DP 2: [CHAIN MATRIX MULTIPLICATION FOR A CHAIN OF MATRICES](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/ChainMatrixMultiplication.cpp)**
