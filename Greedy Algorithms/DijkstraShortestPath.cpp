@@ -5,7 +5,7 @@ void showpath(int path[],int i)
     if (path[i]==-1)
     return;
     showpath(path,path[i]);
-    cout<<char('A'+i);
+    cout<<char('A'+i)<<"\t";
 
 }
 int mindist(int dist[],char traversed[],int n)
@@ -106,11 +106,11 @@ int main()
     {
         for (int j = 0; j < n; j++)
         {
-            cout << "Enter cost of path between " << char('A' + i) << " to " << char('A' + j) << endl;
+            cout << "Enter weight of path between " << char('A' + i) << " to " << char('A' + j) << endl;
             cin >> weight[i][j];
         }
     }
-    cout << "The matrix showing costs of paths connecting vertices:" << endl;
+    cout << "The data showing shortest paths connecting source and rest of the vertices:" << endl;
     printDistance(weight, n);
     dijktras(weight,n,0);
 }
