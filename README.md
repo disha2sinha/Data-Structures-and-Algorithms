@@ -22,7 +22,30 @@
 
 **DP 10:[TRAVELLING SALESMAN PROBLEM](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/TravellingSalesmanProblem.cpp)**
 
+**DP 11:[0-1 KNAPSACK PROBLEM](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/0-1Knapsack.cpp)**
 
-## [GREEDY ALGORITHM](https://github.com/disha2sinha/Algorithms/tree/master/Greedy%20Algorithms)
+## [GREEDY ALGORITHM:](https://github.com/disha2sinha/Algorithms/tree/master/Greedy%20Algorithms)
 
 **GA 1:[SINGLE SOURCE SHORTEST PATH USING DIJKSTRA'S ALGORITHM](https://github.com/disha2sinha/Algorithms/blob/master/Greedy%20Algorithms/DijkstraShortestPath.cpp)**
+
+**GA 2:[FRACTIONAL KNAPSACK PROBLEM](https://github.com/disha2sinha/Algorithms/blob/master/Greedy%20Algorithms/FractionalKnapsack.cpp)**
+
+## [BACKTRACKING ALGORITHMS:](https://github.com/disha2sinha/Algorithms/tree/master/BackTracking)
+
+**BT 1:[HAMILTONIAN CYCLES IN A GRAPH](https://github.com/disha2sinha/Algorithms/blob/master/BackTracking/HamiltonianCycle.cpp)**
+
+**BT 2:[N-QUEEN PROBLEM](https://github.com/disha2sinha/Algorithms/blob/master/BackTracking/N-Queen.cpp)**
+
+**BT 3:[GRAPH COLOURING ALGORITHM](https://github.com/disha2sinha/Algorithms/blob/master/BackTracking/m-coloring.cpp)**
+
+## [DIVIDE AND CONQUER ALGORITHM:](https://github.com/disha2sinha/Algorithms/tree/master/Divide%20and%20Conquer)
+
+**DC 1:[BINARY SEARCH](https://github.com/disha2sinha/Algorithms/blob/master/Divide%20and%20Conquer/BinarySearch.c)**
+
+**DC 2:[MERGE SORT](https://github.com/disha2sinha/Algorithms/blob/master/Divide%20and%20Conquer/MergeSort.cpp)**
+
+**DC 3:[QUICK SORT](https://github.com/disha2sinha/Algorithms/blob/master/Divide%20and%20Conquer/QuickSort.cpp)**
+
+## [ARRAY SORTING ALGORITHMS:](https://github.com/disha2sinha/Algorithms/tree/master/Sorting)
+
+**AS 1:[HEAP SORT](https://github.com/disha2sinha/Algorithms/blob/master/Sorting/heap_sort.cpp)**
