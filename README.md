@@ -51,3 +51,8 @@
 ## [ARRAY SORTING ALGORITHMS:](https://github.com/disha2sinha/Algorithms/tree/master/Sorting)
 
 **AS 1:[HEAP SORT](https://github.com/disha2sinha/Algorithms/blob/master/Sorting/heap_sort.cpp)**
+
+## [STRING MATCHING ALGORITHM:](https://github.com/disha2sinha/Algorithms/tree/master/String%20Matching%20Algorithm)
+
+**SM 1:[KNUTH-MORRIS-PRATT ALGORITHM:](https://github.com/disha2sinha/Algorithms/blob/master/String%20Matching%20Algorithm/Knuth-Morris-pratt.cpp)**
+
