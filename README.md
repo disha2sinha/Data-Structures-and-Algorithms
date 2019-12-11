@@ -30,6 +30,8 @@
 
 **GA 2:[FRACTIONAL KNAPSACK PROBLEM](https://github.com/disha2sinha/Algorithms/blob/master/Greedy%20Algorithms/FractionalKnapsack.cpp)**
 
+**GA 3:[JOB SEQUENCING WITH DEADLINE](https://github.com/disha2sinha/Algorithms/blob/master/Greedy%20Algorithms/JobSequencing.cpp)**
+
 ## [BACKTRACKING ALGORITHMS:](https://github.com/disha2sinha/Algorithms/tree/master/BackTracking)
 
 **BT 1:[HAMILTONIAN CYCLES IN A GRAPH](https://github.com/disha2sinha/Algorithms/blob/master/BackTracking/HamiltonianCycle.cpp)**
