@@ -19,10 +19,6 @@ int *prefix_function(char *pattern)
         }
         *(pi+j) = k;
     }
-    for (int i = 0; i < m; i++)
-    {
-        cout << *(pi+i);
-    }
     return pi;
 }
 void KMP_matcher(char *text,char *pattern)
