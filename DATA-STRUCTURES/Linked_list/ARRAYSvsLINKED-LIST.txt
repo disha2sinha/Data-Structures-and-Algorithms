@@ -1,0 +1,21 @@
+Key Differences Between Array and Linked List:
+
+1. An array is the data structure that contains a collection of similar type data elements whereas the Linked list is considered as non-primitive data structure contains a collection of unordered linked elements known as nodes.
+
+2. In the array the elements belong to indexes, i.e., if you want to get into the fourth element you have to write the variable name with its index or location within the square bracket.
+
+3. In a linked list though, you have to start from the head and work your way through until you get to the fourth element.
+
+4. Accessing an element in an array is fast, while Linked list takes linear time, so it is quite a bit slower.
+
+5. Operations like insertion and deletion in arrays consume a lot of time. On the other hand, the performance of these operations in Linked lists is fast.
+
+6. Arrays are of fixed size. In contrast, Linked lists are dynamic and flexible and can expand and contract its size.
+
+7. In an array, memory is assigned during compile time while in a Linked list it is allocated during execution or runtime.
+
+9. Elements are stored consecutively in arrays whereas it is stored randomly in Linked lists.
+
+10. The requirement of memory is less due to actual data being stored within the index in the array. As against, there is a need for more memory in Linked Lists due to storage of additional next and previous referencing elements.
+
+11. In addition memory utilization is inefficient in the array. Conversely, memory utilization is efficient in the linked list.
