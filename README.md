@@ -4,6 +4,10 @@
 #### [1. LEETCODE PROBLEM--Find all Duplicates in an Array:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_All_Duplicates_in_Array-LeetCode)
 Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.Find all the elements that appear twice in this array.
 
+#### [2. LEETCODE PROBLEM--Sort Colors: Sort Array of 0s,1s,2s without extra space and sorting algo:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/SortColors)
+Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
 **DP 1:[SINGLE SOURCE SHORTEST DISTANCE USING BELLMAN FORD ALGORITHM](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/BellmanFord.cpp)**
