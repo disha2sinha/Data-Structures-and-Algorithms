@@ -1,4 +1,8 @@
 # ALGORITHMS
+## [DATA STRUCTURES](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES)
+### [ARRAYS](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays)
+#### [1. LEETCODE PROBLEM--Find all Duplicates in an Array:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_All_Duplicates_in_Array-LeetCode)
+Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.Find all the elements that appear twice in this array.
 
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
