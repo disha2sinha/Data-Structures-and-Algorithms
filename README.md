@@ -8,6 +8,9 @@ Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements 
 Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
 Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
 
+#### [3. LEETCODE PROBLEM--Sort Colors: Find Missing Number:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_Missing_Number)
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
 **DP 1:[SINGLE SOURCE SHORTEST DISTANCE USING BELLMAN FORD ALGORITHM](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/BellmanFord.cpp)**
