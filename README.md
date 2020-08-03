@@ -11,6 +11,9 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 #### [3. LEETCODE PROBLEM--Sort Colors: Find Missing Number:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_Missing_Number)
 Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
 
+#### [4. FIND MISSING AND REPEATED NUMBER IN AN ARRAY :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_Missing_And_Repeating_Number) 
+Given an unsorted array of size n. Array elements are in the range from 1 to n. One number from set {1, 2, …n} is missing and one number occurs twice in the array. Find these two numbers.
+
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
 **DP 1:[SINGLE SOURCE SHORTEST DISTANCE USING BELLMAN FORD ALGORITHM](https://github.com/disha2sinha/Algorithms/blob/master/Dynamic%20Programming/BellmanFord.cpp)**
