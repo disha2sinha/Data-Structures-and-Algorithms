@@ -8,11 +8,15 @@ Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements 
 Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
 Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
 
-#### [3. LEETCODE PROBLEM--Sort Colors: Find Missing Number:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_Missing_Number)
+#### [3. LEETCODE PROBLEM--Find Missing Number:](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_Missing_Number)
 Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
 
 #### [4. FIND MISSING AND REPEATED NUMBER IN AN ARRAY :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Find_Missing_And_Repeating_Number) 
 Given an unsorted array of size n. Array elements are in the range from 1 to n. One number from set {1, 2, …n} is missing and one number occurs twice in the array. Find these two numbers.
+
+#### [5. LEETCODE PROBLEM--Maximum Subarray :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Maximum%20Subarray) 
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
 
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
