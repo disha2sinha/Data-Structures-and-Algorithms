@@ -17,6 +17,12 @@ Given an unsorted array of size n. Array elements are in the range from 1 to n. 
 #### [5. LEETCODE PROBLEM--Maximum Subarray :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Maximum%20Subarray) 
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
+#### [6. LEETCODE PROBLEM--Merged Intervals :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Arrays/Merged%20Intervals)
+Given a collection of intervals, merge all overlapping intervals.
+**Input:** intervals = [[1,3],[2,6],[8,10],[15,18]]
+**Output:** [[1,6],[8,10],[15,18]]
+**Explanation:** Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
+
 
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
