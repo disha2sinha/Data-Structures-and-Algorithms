@@ -80,3 +80,6 @@ Given a collection of intervals, merge all overlapping intervals.
 
 **SM 1:[KNUTH-MORRIS-PRATT ALGORITHM:](https://github.com/disha2sinha/Algorithms/blob/master/String%20Matching%20Algorithm/Knuth-Morris-pratt.cpp)**
 
+## [MISCELLANEOUS PROBLEMS :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/Miscellaneous)
+
+**[MOCKVITA 2020 : Swayambhar](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/Miscellaneous/Mockvita2020%20Swayambhar)**
