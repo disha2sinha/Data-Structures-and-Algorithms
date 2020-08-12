@@ -83,3 +83,4 @@ Given a collection of intervals, merge all overlapping intervals.
 ## [MISCELLANEOUS PROBLEMS :](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/Miscellaneous)
 
 **[MOCKVITA 2020 : Swayambhar](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/Miscellaneous/Mockvita2020%20Swayambhar)**
+**[MOCKVITA 2020 : Digit Pair](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/Miscellaneous/Mockvita2020%20Digit%20pair)**
