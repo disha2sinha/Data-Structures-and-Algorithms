@@ -23,6 +23,11 @@ Given a collection of intervals, merge all overlapping intervals.
 **Output:** [[1,6],[8,10],[15,18]]
 **Explanation:** Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
 
+### [GRAPH](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Graph)
+#### [1. GRAPH TRAVERSAL : DFS (For connected graph)](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Graph/Graph%20Traversal-DFS)
+
+#### [2. GRAPH TRAVERSAL : BFS (For connected graph)](https://github.com/disha2sinha/Data-Structures-and-Algorithms/tree/master/DATA-STRUCTURES/Graph/Graph%20Traversal-BFS)
+
 
 ## [DYNAMIC PROGRAMMING](https://github.com/disha2sinha/Algorithms/tree/master/Dynamic%20Programming)
 
