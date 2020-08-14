@@ -58,14 +58,12 @@ int main()
         cin>>node1>>node2;
         g.addEdgetoList(node1,node2);
     }
-    /*g.addEdgetoList(1, 0);
-    g.addEdgetoList(0, 2);
-    g.addEdgetoList(2, 1);
-    g.addEdgetoList(0, 3);
-    g.addEdgetoList(1, 4);*/
+    int start;
+    cout << "Enter starting vertex:" << endl;
+    cin >> start;
 
     cout << "Following is Depth First Traversal"<<endl;
-    g.dfs(0);
+    g.dfs(start);
 
     return 0;
 }
