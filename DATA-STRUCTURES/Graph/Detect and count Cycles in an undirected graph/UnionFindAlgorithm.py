@@ -12,6 +12,7 @@ class Graph:
         
         return self.find(parent,parent[curr_node])
     def show_graph(self):
+        print("Graph Looks Like : ")
         print(self.graph)
     def union(self,parent,node1,node2):
         parent_node1 = self.find(parent, node1)
@@ -30,13 +31,11 @@ class Graph:
         parent=[-1]*self.nodes
         for node1 in self.graph.keys():
             for node2 in self.graph[node1]:
-                print(node1,node2)
                 parent_node1=self.find(parent,node1)
                 parent_node2=self.find(parent,node2)
                 if parent_node1==parent_node2:
                     cycles+=1
                 self.union(parent,parent_node1,parent_node2)
-                print(parent)
         if cycles>0:
             print("Graph has {} cycles".format(cycles))
         else:
