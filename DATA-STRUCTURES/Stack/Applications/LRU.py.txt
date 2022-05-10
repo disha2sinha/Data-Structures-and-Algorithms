@@ -1,0 +1,105 @@
+class DLLNode:
+	def __init__(self,page=None):
+		self.page = page
+		self.prev = None
+		self.next = None
+class LRUcache:
+	def __init__(self,capacity):
+		self.head = None
+		self.tail = self.head
+		self.capacity = capacity
+		self.count = 0
+		self.page_fault = 0
+		self.page_hits = 0
+		self.map = {}
+
+	def refer(self,page):
+	    if page in self.map:
+	        self.page_hits += 1
+	        node = self.map[page]
+	        if node == self.tail:
+	            self.delete_end()
+	        else:
+	            self.delete(node)
+	        self.insert(node)
+	    else:
+	        self.page_fault += 1
+	        newNode = DLLNode(page)
+	        if self.count < self.capacity:
+	            self.insert(newNode)
+	            self.map[page] = newNode
+	            self.count += 1
+	        else:
+	            del self.map[self.tail.page]
+	            self.delete_end()
+	            self.insert(newNode)
+	            self.map[page] = newNode
+	def insert(self,node):
+		if self.head is None:
+			self.head = node
+			self.tail = self.head
+			return
+		node.prev = self.head.prev
+		self.head.prev = node
+		node.next = self.head
+		self.head = node
+    			
+
+	def delete(self, node):
+		node.prev.next = node.next
+		node.next.prev = node.prev
+
+	def delete_end(self):
+		self.tail.prev.next = None
+		self.tail = self.tail.prev
+
+	def display(self):
+	        curr = self.head
+	        while curr:
+	            print(curr.page,end = " ")
+	            curr = curr.next
+	        print('\n')
+
+			
+			
+LRUcache = LRUcache(3)
+LRUcache.refer(1)
+LRUcache.display()
+
+LRUcache.refer(2)
+LRUcache.display()
+
+LRUcache.refer(3)
+LRUcache.display()
+
+LRUcache.refer(4)
+LRUcache.display()
+
+LRUcache.refer(1)
+LRUcache.display()
+
+LRUcache.refer(2)
+LRUcache.display()
+
+LRUcache.refer(5)
+LRUcache.display()
+
+LRUcache.refer(1)
+LRUcache.display()
+
+LRUcache.refer(2)
+LRUcache.display()
+
+LRUcache.refer(3)
+LRUcache.display()
+
+LRUcache.refer(4)
+LRUcache.display()
+
+LRUcache.refer(5)
+LRUcache.display()
+print("Page Hits : ",LRUcache.page_hits)
+print("Page Fault : ",LRUcache.page_fault)
+
+		
+	
